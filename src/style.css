@@ -1,0 +1,30 @@
+html,body{
+
+ background-color: blue;
+ color: beige;
+ font-size: large;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+
+}
+input[type="text"]:focus,
+input[type="date"]:focus {
+    border-color:black; 
+    outline: none;
+    box-shadow: 0 4px 6px rgba(255, 0, 221, 0.877); 
+
+}
+button {
+    background-color:blueviolet;
+    color: #FFFFFF; /* Blanco */
+    padding: 10px 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 255, 136, 0.3); /* Sombra suave con un toque azul */
+
+}
+
